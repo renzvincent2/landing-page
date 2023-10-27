@@ -1,0 +1,237 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .header {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    background-image: url(./images/pexels-photo-912050.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 100%;
+    width: 100%;
+  }
+  
+  .left {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    padding: 20px 30px 50px 30px;
+    gap: 50px;
+  
+  }
+  .left h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 5px 0px;
+  }
+  
+  ul {
+    display: flex;
+    margin: 0px;
+    padding: 0;
+    gap: 25px;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  a, .left p {
+    font-size: 20px;
+    color: #e5e7eb;
+    text-decoration: none;
+    text-align: justify;
+  }
+  
+  .left p {
+    margin: -20px 0px 10px 0px;
+  }
+  
+  .left button {
+    padding: 10px 30px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: none;
+    border: 1px solid #3882F6;
+    width: 150px;
+    margin-top: -25px;
+  }
+  
+  .left button:hover {
+    color: #000;
+    transition: .1s;
+  }
+  
+  .right {
+    width: 35%;
+    padding: 20px 30px 50px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 50px;
+  }
+  
+  .right  li a:hover {
+    color: #3882F6;
+  }
+  
+  .image {
+    display: flex;
+    flex: 1 1 auto;;
+    width: 500px;
+    height: auto;
+    margin: 36px;
+    margin-right: 0px;
+  }
+  
+  
+  section {
+    display: flex;
+    margin-bottom: 60px;
+    gap: 10px;
+  }
+  
+  article {
+    flex: 1;
+    border-radius: 12px;
+    padding: 15px;
+  
+  }
+  
+  #bg-article {
+    font-size: 48px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: center;
+    margin-top: -10px;
+  }
+  
+  .small-pics {
+    border-radius: 10, 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: center;
+    margin-top: -100px;
+  }
+  
+  .small-pics:hover {
+    box-shadow:
+            0 1px 1px hsl(0deg 0% 0% / 0.075),
+            0 2px 2px hsl(0deg 0% 0% / 0.075),
+            0 4px 4px hsl(0deg 0% 0% / 0.075),
+            0 8px 8px hsl(0deg 0% 0% / 0.075),
+            0 16px 16px hsl(0deg 0% 0% / 0.075);
+    transition: 0.5s;
+  }
+  .small-pics > img {
+    border-radius: 25px;
+  }
+  
+  .small-pics div {
+    font-size: 25px;
+    margin-top: 20px;
+  }
+  
+  .quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 100px;
+    gap: 32px;
+    flex: auto;
+  }
+  
+  .qtext {
+    color: #1F2937;
+    font-size: 40px;
+    font-weight: 300;
+    font-style: italic;
+    flex-shrink: 0;
+    padding: 50px 200px;
+    text-align: justify;
+  }
+  
+  .qauthor {
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    justify-content: flex-end;
+  }
+  
+  .signup {
+    height: 250px;
+  }
+  
+  .su-section {
+    display: flex;
+    background-color: #3882F6;
+    margin: 100px 250px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 12px;
+  }
+  
+  .su {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    justify-content: space-between;
+    align-items: space-between;
+    gap: 4px;
+  }
+  
+  .su-header {
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+  }
+  
+  .su-text {
+    color: white;
+    font-weight: 300;
+    font-size: 22px;
+  }
+  
+  .su-section button {
+    padding: 10px 30px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: none;
+    border: 1px solid white;
+    width: 150px;
+    margin-top: -25px;
+    font-size: 15px;
+  }
+  
+  .su-section button:hover {
+    color: #000;
+    transition: .1s;
+  }
+  
+  .footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    padding: 50px;
+    margin-top: 90px;
+  }
+  
+  .copyr {
+    margin-bottom: 10px;
+  }
